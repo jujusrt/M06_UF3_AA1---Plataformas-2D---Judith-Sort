@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 75f7a0898d3ce1b4abb8b643187374ce
+guid: fe6cf048faafe3c4a90dea90a7a7bba7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,106 +110,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: john_idle_0
+      name: Soldier-Idle_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 19
+        x: 41
+        y: 43
+        width: 15
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cda623ae134f6048b2c15489c0ed187
-      internalID: 1848604289
+      spriteID: 6965bd6ef77c5494cbfc57fa0297f23a
+      internalID: 100831933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: john_idle_1
+      name: Soldier-Idle_2
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 19
+        x: 141
+        y: 43
+        width: 15
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 626a32f13ec2c10478709ddb56f758b2
-      internalID: -1150128205
+      spriteID: 1daa2dfa7cc10684e840ce2825468bf4
+      internalID: 601855422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: john_idle_2
+      name: Soldier-Idle_3
       rect:
         serializedVersion: 2
-        x: 57
-        y: 0
-        width: 19
-        height: 18
+        x: 241
+        y: 43
+        width: 15
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d132a8bf7506f4ca117c4ae6089862
-      internalID: -870270579
+      spriteID: 0d131a48b6634224598ce54410a69c68
+      internalID: -1007846493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: john_idle_3
+      name: Soldier-Idle_4
       rect:
         serializedVersion: 2
-        x: 83
-        y: 0
-        width: 19
-        height: 18
+        x: 341
+        y: 43
+        width: 15
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d3ed05934e29f45b16fd1c82aea8f5
-      internalID: 348546134
+      spriteID: 2ad6404480522f84e801a30e599ab612
+      internalID: -81870431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: john_idle_4
+      name: Soldier-Idle_5
       rect:
         serializedVersion: 2
-        x: 109
-        y: 0
-        width: 19
+        x: 441
+        y: 43
+        width: 15
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02bbf53417776934aa18aff56b2385f1
-      internalID: -1976740995
+      spriteID: 8de8fbe3b2348ca47bbd54dedd48897f
+      internalID: -1707495587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldier-Idle_6
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 43
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2788c063a667d724ca00fd59686b2e9a
+      internalID: 1910454682
       vertices: []
       indices: 
       edges: []
@@ -225,11 +246,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      john_idle_0: 1848604289
-      john_idle_1: -1150128205
-      john_idle_2: -870270579
-      john_idle_3: 348546134
-      john_idle_4: -1976740995
+      Soldier-Idle_0: 100831933
+      Soldier-Idle_1: 690828323
+      Soldier-Idle_2: 601855422
+      Soldier-Idle_3: -1007846493
+      Soldier-Idle_4: -81870431
+      Soldier-Idle_5: -1707495587
+      Soldier-Idle_6: 1910454682
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
